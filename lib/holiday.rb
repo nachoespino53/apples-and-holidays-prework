@@ -73,7 +73,7 @@ def all_supplies_in_holidays(holiday_hash)
         key_array.each do |element|
           element.capitalize
         end
-        key = key_array.join
+        key = key_array.join(" ")
         
       end
       
