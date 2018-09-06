@@ -65,7 +65,7 @@ def all_supplies_in_holidays(holiday_hash)
     key[0].upcase
     print key
     value.each do |key, value|
-      key[0] = key[0].upcase
+      key[0].upcase
       puts "#{key} #{value}"
     end
   end
