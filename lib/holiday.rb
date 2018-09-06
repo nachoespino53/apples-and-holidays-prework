@@ -79,7 +79,7 @@ def all_supplies_in_holidays(holiday_hash)
       else
         key = key.capitalize
       end
-      
+      value = value.join
       puts "#{key}: #{value}"
     
     end
