@@ -80,7 +80,7 @@ def all_supplies_in_holidays(holiday_hash)
         key = key.capitalize
       end
       value = value.join(", ")
-      puts "#{key}: #{value}"
+      puts "  #{key}: #{value}"
     
     end
     
