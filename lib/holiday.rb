@@ -68,10 +68,11 @@ def all_supplies_in_holidays(holiday_hash)
     
     value.each do |key, value|
       key_array = []
+      key_cap_array =[]
       if key.to_s.include? "_"
         key_array = key.to_s.split("_")
         key_array.each do |element|
-          element.capitalize
+          key_cap_array << element.capitalize
         end
         key = key_array.join(" ")
         
