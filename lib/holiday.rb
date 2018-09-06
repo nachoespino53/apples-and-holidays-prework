@@ -62,10 +62,8 @@ def all_supplies_in_holidays(holiday_hash)
   #   Fourth Of July: Fireworks, BBQ
   # etc.
   holiday_hash.each do |key, value|
-    key[0].upcase
     print key
     value.each do |key, value|
-      key[0].upcase
       puts "#{key} #{value}"
     end
   end
@@ -78,22 +76,22 @@ def all_holidays_with_bbq(holiday_hash)
 
 end
 
-holiday_hash =
-    {
-      :winter => {
-        :christmas => ["Lights", "Wreath"],
-        :new_years => ["Party Hats"]
-      },
-      :summer => {
-        :fourth_of_july => ["Fireworks", "BBQ"]
-      },
-      :fall => {
-        :thanksgiving => ["Turkey"]
-      },
-      :spring => {
-        :memorial_day => ["BBQ"]
-      }
-    }
+# holiday_hash =
+#     {
+#       :winter => {
+#         :christmas => ["Lights", "Wreath"],
+#         :new_years => ["Party Hats"]
+#       },
+#       :summer => {
+#         :fourth_of_july => ["Fireworks", "BBQ"]
+#       },
+#       :fall => {
+#         :thanksgiving => ["Turkey"]
+#       },
+#       :spring => {
+#         :memorial_day => ["BBQ"]
+#       }
+#     }
 
 
 
