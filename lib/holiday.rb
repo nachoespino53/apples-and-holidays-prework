@@ -93,6 +93,7 @@ holiday_hash =
       :spring => {
         :memorial_day => ["BBQ"]
       }
+    }
 
 
 
